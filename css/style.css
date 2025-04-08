@@ -1,0 +1,168 @@
+/*
+---------
+etiqueta/selector {
+    propiedad: valor;
+}
+---------
+*/
+
+/*
+---------
+JERARQUIÍA DE CLASES DE MAYOR A MENOR
+
+!important : Se coloca antes de cerrar el valor con el ;
+
+ID         : Se estructura y se nombran a todas las etiquetas troncales del index No se repiten.
+
+CLASS      : Se pueden crear y repetir tantas veces se quiera y necesite. Separa términos.
+
+etiquetas/selectores : De lo más bajo, no tienen jerarquía.
+---------
+*/
+
+/*
+---------
+Llamados
+
+ID    = #
+CLASS = .
+etiqueta/selector = Como su nombre lo indique.
+---------
+*/
+
+
+/*ESTILOS RESET*/
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+#body {
+    background-color: rgba(82, 82, 85, 0.534);
+}
+
+#header {
+    width: 100%;
+}
+
+#nav {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+#main {
+    max-width: 1440px;
+    min-height: 100vh;
+    margin: 0 auto;
+    
+}
+
+/*ESTILOS PAGE INICIO*/
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    color: darkcyan;
+}
+
+.seccion1 img {
+    width: 200px;
+}
+
+
+#header {
+    background-color: rgba(98, 143, 142, 0.772);
+    width: 100%;
+    height: 80px;
+}
+
+#nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#nav ul {
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+/*ESTILOS FOOTER*/
+
+#footer {
+    width: 100%;
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footerLogo img {
+    width: 100px;
+}
+
+.footerMenu {
+    text-align: center;
+}
+
+
+
+
+.header--nav__ul a {
+    display: inline-block;
+    color: blue;
+    text-decoration: none;
+    font-size: 18px;
+    border: 1px black solid;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    transition: .5s;
+}
+
+.header--nav__ul a:hover {
+    color: brown;
+    border: 1.5px black solid;
+    border-radius: 20%;
+    margin-bottom: 6px;
+    margin-right: 6px;
+    box-shadow: 8px 3px 6px rgba(49, 49, 49, 0.536);
+    transition: .5s;
+}
+
+.header--nav__ul a:visited {
+    color: aqua;
+}
+
+.header--nav__ul a:active {
+    color: chartreuse;
+}
+
+.header--nav__ul a:focus {
+    color: darkgreen;
+}
+
+
+
+.footer--nav__ul a {
+    color: aqua;
+}
+
+.footer--nav__ul li:nth-child(5) a{
+    color: blueviolet;
+}
+
+#footer section:not(.footer--redes) {
+    border: 2px red solid;
+}
