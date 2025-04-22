@@ -1,0 +1,43 @@
+/*IMPORTS LAYAUTS*/
+@use "./layaut/reset";
+@use "./layaut/nav";
+@use "./layaut/footer";
+
+/*IMPORTS PAGES*/
+@use "./pages/contacto";
+@use "./pages/acercaDe";
+@use "./pages/imagenes";
+@use "./pages/index";
+
+/*
+---------
+etiqueta/selector {
+    propiedad: valor;
+}
+---------
+*/
+
+/*
+---------
+JERARQUIÍA DE CLASES DE MAYOR A MENOR
+
+!important : Se coloca antes de cerrar el valor con el ;
+
+ID         : Se estructura y se nombran a todas las etiquetas troncales del index No se repiten.
+
+CLASS      : Se pueden crear y repetir tantas veces se quiera y necesite. Separa términos.
+
+etiquetas/selectores : De lo más bajo, no tienen jerarquía.
+---------
+*/
+
+/*
+---------
+Llamados
+
+ID    = #
+CLASS = .
+etiqueta/selector = Como su nombre lo indique.
+---------
+*/
+

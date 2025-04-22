@@ -1,0 +1,29 @@
+/*ESTILOS FOOTER*/
+
+#footer {
+    width: 100%;
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footerLogo img {
+    width: 100px;
+}
+
+.footerMenu {
+    text-align: center;
+}
+
+.footer--nav__ul a {
+    color: aqua;
+}
+
+.footer--nav__ul li:nth-child(5) a{
+    color: blueviolet;
+}
+
+#footer section:not(.footer--redes) {
+    border: 2px red solid;
+}
